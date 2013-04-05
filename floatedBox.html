@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Floated Box</title>
+<style>
+	#container
+	{
+		width:50%;
+		margin-left:auto;
+		margin-right:auto;
+		border:1px solid #000;
+	}
+	.boks2, .boks3, .boks4{
+		float:left;
+		width:100px;
+		height:100px;
+		border:1px solid #000;
+		margin-left:10px;
+		margin-top:10px;
+	}
+	.boks1{
+		float:left;
+		width:212px;
+		height:100px;
+		border:1px solid #000;
+		margin-left:10px;
+		margin-top:10px;
+	}
+	.clearing{
+		clear:both;
+	}
+</style>
+</head>
+
+<body>
+
+<div id="container">
+
+	<div class="boks1">
+	Boks 1
+	</div>
+	<div class="boks2">
+	Boks 2
+	</div>
+	<div class="boks3">
+	Boks 3
+	</div>
+	<div class="boks4">
+	Boks 4
+	</div>
+	<div class="clearing">
+	
+	</div>
+	
+</div>
+
+
+</body>
+</html>
